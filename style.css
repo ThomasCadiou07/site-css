@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.li {
+    font-size: 20px;
+}
+
+.home {
+    background-color: gainsboro;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 8px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.home:hover {
+    background-color: antiquewhite;
+    border-width: 15px;
+    transition: background-color 1s ease;
+    transition: width 30px;
+    height: 40px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+
+
+.apdm {
+    background-color: gainsboro;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 8px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.apdm:hover {
+    background-color: antiquewhite;
+    border-width: 15px;
+    transition: background-color 1s ease;
+    transition: width 30px;
+    height: 40px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.mp {
+    background-color: gainsboro;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 8px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.mp:hover {
+    background-color: antiquewhite;
+    border-width: 15px;
+    transition: background-color 1s ease;
+    transition: width 30px;
+    height: 40px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.contact {
+    background-color: gainsboro;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 8px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.contact:hover {
+    background-color: antiquewhite;
+    border-width: 15px;
+    transition: background-color 1s ease;
+    transition: width 30px;
+    height: 40px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+
+
+nav {
+    min-height: 90px;
+    border-bottom: 5px solid navy;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    
+}
+
+nav h2 {
+    font-size: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+
+
+
+li {
+    font-size: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 150px;
+    margin-bottom: 40px;
+    font-family: inherit;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.rotate {
+    animation: tourne 3s linear infinite;
+    display: block;
+    margin: 0px;
+    width: 180px;
+}
+
+@keyframes tourne {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.pres {
+    padding: 160px;
+    display: flex;
+
+}
+
+.bob1 {
+    padding: 10px;
+    width: 400px;
+    margin-left: 625px;
+    margin-top: -150px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+
+.bob2 {
+    padding: 10px;
+    width: 400px;
+    margin-left: 1010px;
+    margin-top: -427px;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+
+
+}
+@media screen and (max-width: 800px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+.house {
+    padding-left: 100px;
+}
+
+.maison {
+    padding: 10px;
+    width: 900px;
+    margin-left: 95px;
+    margin-top: -10px;
+}
+
+.scene {
+    padding: 10px;
+    width: 625px;
+    margin-left: -1510px;
+    margin-top: 144px;
+}
+
+
+
+
+
+.texte {
+    font-family: inherit;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.texte:hover {
+    color: navy;
+    animation: 10s ease-in;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-left: 12px ;
+    font-family: inherit;
+}
+
+
+
+.carousel {
+    padding: 10px;
+}
+
